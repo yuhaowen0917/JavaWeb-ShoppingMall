@@ -7,7 +7,7 @@ JavaWeb在线商城开发知识总结(java+jsp+servlet+MySQL+jdbc+css+js+jQuery)
 
 **项目视频演示**
 
-[输入链接说明](https://www.bilibili.com/video/BV1SR4y1K7sy)
+[bilibili项目演示视频](https://www.bilibili.com/video/BV1SR4y1K7sy)
 
 **项目结构图**
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/3624ca34aae949218992472801d5e03c.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAd3VfbGlhbmcwOTE3,size_9,color_FFFFFF,t_70,g_se,x_16#pic_center)
@@ -24,3 +24,12 @@ JavaWeb在线商城开发知识总结(java+jsp+servlet+MySQL+jdbc+css+js+jQuery)
 ### 商城首页
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/a6be60438b5f46e4ab64d3024fcda01e.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAd3VfbGlhbmcwOTE3,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/499304b7639f45ff8e09e80d10040cdd.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAd3VfbGlhbmcwOTE3,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
+
+### 登录注册页面
+![在这里插入图片描述](https://img-blog.csdnimg.cn/965f6406bd0b4a9db72f780bcffdc7d1.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAd3VfbGlhbmcwOTE3,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/27624b1a2b4a490aac32a9fe01c0ceec.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAd3VfbGlhbmcwOTE3,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
+
+### 购物车页面
+![在这里插入图片描述](https://img-blog.csdnimg.cn/d980f75f095c49748d4b4ccde1a63746.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAd3VfbGlhbmcwOTE3,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
+
+这个项目我做得并不是很完美，各位可以发挥自己的才能去完善它
