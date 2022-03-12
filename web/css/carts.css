@@ -1,0 +1,240 @@
+.head{
+    position: relative;
+    height: 45px;
+    background-color: #4d4343;
+}
+.shouye_head{
+    width: 1000px;
+    margin: 0 auto;
+    height: 45px;
+    line-height: 45px;
+}
+.shouye_head a{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.cart{
+    width: 1000px;
+    margin: 50px auto 0;
+    display: block;
+    /*height: 1000px;*/
+}
+.cart-head{
+    display: block;
+    height: 50px;
+    background-color: #D3D1D1A8;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.cart-head .column{
+    float: left;
+}
+.cart-head .g-select{
+    width: 80px;
+}
+.cart-head .g-select .g-checkbox{
+    float: left;
+    padding-right:5px;
+    padding-left: 10px;
+}
+.cart-head .g-images{
+    width: 120px;
+}
+.cart-head .g-goodsname{
+    width: 160px;
+}
+.cart-head .g-props{
+    width: 150px;
+    margin-left: 30px;
+}
+.cart-head .g-price{
+    width: 100px;
+    margin-left: 15px;
+}
+.cart-head .g-quantity{
+    width: 100px;
+    padding-left: 20px;
+}
+.cart-head .g-sum{
+    width: 97px;
+    margin-left: 10px;
+    text-align: right;
+    padding-right: 35px;
+}
+.cart-head .g-action{
+    width: 60px;
+}
+.cart .carts-goods{
+    border-top: 1px solid #bababa;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    height: 110px;
+}
+.carts-goods .c-select {
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.carts-goods .c-select .c-checkbox{
+    margin-top: 10px;
+}
+.carts-goods .c-images{
+    margin-left: 5px;
+    margin-right: 25px;
+}
+.c-images a img{
+    width: 110px;
+    border: 2px solid #9d9999;
+}
+.c-goodsname{
+    width: 160px;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding-top: 14px;
+}
+.c-goodsname a{
+    color: #000000;
+    font-size: 14px;
+}
+.c-props{
+    width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 13px;
+    padding-top: 14px;
+    margin-left: 15px;
+}
+.c-price{
+    margin-left: 16px;
+    padding-top: 13px;
+    width: 80px;
+    padding-right: 20px;
+    text-align: right;
+    font-size: 15px;
+}
+.c-price .c-price_num{
+    float: right;
+}
+.c-quantity{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100px;
+    border: none;
+    padding-top: 13px;
+}
+.c-quantity button{
+    width: 20px;
+    height: 25px;
+    line-height: 20px;
+    float: left;
+    background-color: #d8dcdc;
+    border: none;
+}
+.c-quantity input{
+    float: left;
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #d7d2d2;
+    padding: 0;
+}
+.c-sum{
+    width: 110px;
+    font-weight: 600;
+    padding-top: 13px;
+    text-align: right;
+    margin-right: 40px;
+}
+.c-sum .c-sum_num{
+    float: right;
+}
+.c-action{
+    width: 80px;
+    /*margin-left: 40px;*/
+    padding-top: 13px;
+}
+.c-action a{
+    color: #e30606;
+    font-size: 15px;
+}
+.carts-goods .cell{
+    float: left;
+}
+.payment{
+    width: 100%;
+    position: fixed;
+    height: 58px;
+    top: auto;
+    bottom: 0;
+    background-color: #e7dede;
+}
+.payment .cart-pay{
+    width: 1005px;
+    margin: 0 auto;
+    height: 58px;
+    position: relative;
+}
+.pay-left{
+    width: 350px;
+    height: 58px;
+    float: left;
+}
+.pay-left .select_all{
+    float: left;
+    line-height: 58px;
+    margin-left: 10px;
+}
+.goods_num{
+    float: left;
+    line-height: 58px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.goods_num span{
+    color: #f70000;
+}
+.pay-right{
+    position: absolute;
+    width: 650px;
+    height: 58px;
+    right: 0;
+    /*float: right;*/
+}
+.pay-right .btn{
+    float: right;
+    height: 58px;
+}
+.pay-right .price-sum{
+    margin-top: 8px;
+    float: right;
+    position: relative;
+    height: 50px;
+    line-height: 40px;
+    width: 250px;
+    font-size: 18px;
+}
+.pay-right .price-sum .price-show{
+    float: left;
+}
+.price-sum .show-money{
+    color: #f1300f;
+    font-weight: 600;
+}
+.pay-right a{
+    position: relative;
+    display: block;
+    width: 100px;
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+    color: #e0dfdf;
+    font-size: 28px;
+    cursor: pointer;
+    background-color: #ff0000;
+    font-weight: 800;
+    color: #ffffff;
+}

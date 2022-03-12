@@ -1,0 +1,188 @@
+.head{
+    position: relative;
+    height: 45px;
+    background-color: #4d4343;
+}
+.shouye_head{
+    width: 1200px;
+    margin: 0 auto;
+    height: 45px;
+    line-height: 45px;
+}
+.shou_head{
+    float: left;
+}
+.shou_head a{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+}
+.login{
+    display:flex;
+    float: right;
+    line-height: 45px;
+    font-size: 15px;
+}
+.login div{
+    margin-right: 10px;
+}
+.login div{
+    width: 50px;
+    text-align: center;
+}
+.login a{
+    color: #FFFFFF;
+}
+.login>div a:hover{
+    color:#f10215;
+}
+.car{
+    position: relative;
+    display: block;
+    float: right;
+    /*margin-right: 150px;*/
+    height: 45px;
+    width: 140px;
+    background-color: #919198;
+    line-height: 45px;
+    /*text-align: center;*/
+}
+.car a{
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+}
+.car img{
+    display: block;
+    float: left;
+    margin-top: 8px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+.search_kuang{
+    position: relative;
+    height: 60px;
+}
+.search{
+    margin: 20px auto 0;
+    width: 500px;
+    height: 45px;
+    border: 2px solid #f53c66;
+}
+.search .text{
+    width: 400px;
+    height: 37px;
+    border: none;
+    padding: 4px 10px 0;
+    outline: none;
+}
+.search button{
+    float: right;
+    border: none;
+    width: 80px;
+    height: 100%;
+    background-color: #f53c3c;
+    cursor: pointer;
+}
+.xi_nav{
+    height: 40px;
+    background-color: #d51111;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+.menu-list{
+    width: 100%;
+    height: 40px;
+}
+.menu-list .menu{
+    float: left;
+    line-height: 40px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.menu-list .menu a{
+    color: #FFFFFF;
+}
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+.preview{
+    float: left;
+    width: 354px;
+    position: relative;
+}
+.photo_xi{
+    border: 1px solid #acaeb2;
+}
+.itemInfo-wrap{
+    display: block;
+    float: left;
+    width: 600px;
+    margin-left: 40px;
+}
+.itemInfo-wrap .x-goodsname{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.news{
+    width: 500px;
+    color: #e4393c;
+    margin-bottom: 5px;
+    display: block;
+    font-size: 13px;
+    margin: 10px 0;
+}
+.x-price{
+    width: 120px;
+    text-align: right;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #f10101;
+}
+.x-price span{
+    float: left;
+    /*margin-left: 5px;*/
+    font-size: 15px;
+}
+.x-price .x-price_num{
+    float: left;
+    font-size: 22px;
+    margin-left: 5px;
+}
+.x-action{
+    display: block;
+    width: 500px;
+    height: 50px;
+    margin: 20px 0;
+    /*line-height: 50px;*/
+}
+.x-action .liji{
+    float: left;
+    height: 43px;
+    width: 110px;
+    line-height: 43px;
+    text-align: center;
+    border: 1px solid #00c25e;
+    margin-left: 20px;
+}
+.liji a{
+    color: #00c25e;
+}
+.x-action .add_cart{
+    float: left;
+    height: 45px;
+    width: 120px;
+    line-height: 45px;
+    text-align: center;
+    background-color: #FF0000FF;
+    margin-left: 20px;
+}
+.add_cart a{
+    color: #FFFFFF;
+}

@@ -1,0 +1,191 @@
+.head{
+    position: relative;
+    height: 45px;
+    background-color: #4d4343;
+}
+.shouye_head{
+    width: 1000px;
+    margin: 0 auto;
+    height: 45px;
+    line-height: 45px;
+}
+.shouye_head a{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+}
+.dowebok {
+    margin: 20px auto 0px;
+    background:#fff;
+    border-radius:20px;
+    box-shadow:0 14px 28px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.22);
+    position:relative;
+    overflow:hidden;
+    width:1000px;
+    max-width:100%;
+    height:750px;
+}
+h1 {
+    font-weight:bold;
+}
+p {
+    font-size:14px;
+    line-height:10px;
+    margin:20px 0 20px;
+}
+span {
+    font-size:12px;
+}
+a {
+    color:#333;
+    font-size:14px;
+    text-decoration:none;
+    margin:15px 0;
+}
+.form-container form {
+    background:#fff;
+    display:flex;
+    flex-direction:column;
+    /* padding:0 50px; */
+    height:100%;
+    justify-content:center;
+    align-items:center;
+    /* text-align:center; */
+}
+.social-container {
+    margin:20px 0;
+}
+.social-container a {
+    border:1px solid #ddd;
+    border-radius:50%;
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    margin:0 5px;
+    height:40px;
+    width:40px;
+}
+.social-container a:hover {
+    background-color:#eee;
+}
+.form-container input {
+    background:#eee;
+    border:none;
+    padding:12px 15px;
+    margin:8px 0;
+    width:300px;
+    outline:none;
+}
+button {
+    border-radius:15px;
+    border:1px solid #20b2aa;
+    background:#20b2aa;
+    width: 100px;
+    height: 40px;
+    line-height: 30px;
+    color:#fff;
+    font-size:17px;
+    font-weight:bold;
+    letter-spacing:4px;
+    transition:transform 80ms ease-in;
+    cursor:pointer;
+}
+button:active {
+    transform:scale(.95);
+}
+button:focus {
+    outline:none;
+}
+button.ghost {
+    background:#20b2aa;
+    border-color:#fff;
+}
+.form-container {
+    position:absolute;
+    top:0;
+    height:100%;
+    transition:all .6s ease-in-out;
+}
+.sign-in {
+    left:0;
+    width:50%;
+    z-index:2;
+}
+.sign-up {
+    left:0;
+    width:50%;
+    z-index:1;
+    opacity:0;
+}
+.overlay-container {
+    position:absolute;
+    top:0;
+    left:50%;
+    width:50%;
+    height:100%;
+    overflow:hidden;
+    transition:transform .6s ease-in-out;
+    z-index:100;
+}
+.overlay {
+    background:#20b2aa;
+    background:linear-gradient(to right,lightseagreen,lightseagreen) no-repeat 0 0 / cover;
+    color:#fff;
+    position:relative;
+    left:-100%;
+    height:100%;
+    width:200%;
+    transform:translateY(0);
+    transition:transform .6s ease-in-out;
+}
+.overlay-panel {
+    position:absolute;
+    top:0;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+    width:50%;
+    text-align:center;
+    transform:translateY(0);
+    transition:transform .6s ease-in-out;
+}
+.mask-right {
+    right:0;
+    transform:translateY(0);
+}
+.mask-left {
+    transform:translateY(-50%);
+}
+
+/* Move signin to right 向右移动登录 */
+.dowebok.right-panel-active .sign-in {
+    transform:translateY(100%);
+}
+/* Move overlay to left 登录蒙版向左移动叠加层 */
+.dowebok.right-panel-active .overlay-container {
+    transform:translateX(-100%);
+}
+/* Bring signup over signin 通过登录进行注册 */
+.dowebok.right-panel-active .sign-up {
+    transform:translateX(100%);
+    opacity:1;
+    z-index:5;
+}
+/* Move overlay back to right 将叠加层移回右侧 */
+.dowebok.right-panel-active .overlay {
+    transform:translateX(50%);
+}
+/* Bring back the text to center 使文本回到中心 */
+.dowebok.right-panel-active .mask-left {
+    transform:translateY(0);
+}
+/* Same effect for right 右侧效果相同 */
+.dowebok.right-panel-active .mask-right {
+    transform:translateY(50%);
+}
+/* 提示语的颜色设置 */
+.error{
+    color: #ff0000;
+}

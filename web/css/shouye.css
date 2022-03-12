@@ -1,0 +1,244 @@
+.head{
+    position: relative;
+    height: 45px;
+    background-color: #4d4343;
+}
+.head_zi{
+    width: 1200px;
+    margin: 0px auto;
+    height: 45px;
+}
+.huan{
+    color: #FFFFFF;
+    margin-left: 20px;
+    float: left;
+    font-size: 20px;
+    line-height: 45px;
+}
+.login{
+    display:flex;
+    float: right;
+    line-height: 45px;
+    font-size: 15px;
+}
+.login div{
+    margin-right: 10px;
+}
+.login div{
+    width: 50px;
+    text-align: center;
+}
+.login a{
+    color: #FFFFFF;
+}
+.login>div a:hover{
+    color:#f10215;
+}
+.car{
+    position: relative;
+    display: block;
+    float: right;
+    /*margin-right: 150px;*/
+    height: 45px;
+    width: 140px;
+    background-color: #919198;
+    line-height: 45px;
+    /*text-align: center;*/
+}
+.car a{
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+}
+.car img{
+    display: block;
+    float: left;
+    margin-top: 8px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+.search_kuang{
+    position: relative;
+    height: 60px;
+}
+.search{
+    margin: 20px auto 0;
+    width: 500px;
+    height: 45px;
+    border: 2px solid #f53c66;
+}
+.search .text{
+    width: 400px;
+    height: 37px;
+    border: none;
+    padding: 4px 10px 0;
+    outline: none;
+}
+.search button{
+    float: right;
+    border: none;
+    width: 80px;
+    height: 100%;
+    background-color: #f53c3c;
+    cursor: pointer;
+}
+.shop{
+    display: block;
+    margin: 10px auto 0px;
+    width: 1200px;
+    /*background-color: #d7d4d4;*/
+}
+.lunbo{
+    /*display: block;*/
+    margin: 0px auto;
+    /*padding-top: 20px;*/
+    width: 1100px;
+    border: 1px solid #0a3b86;
+    height: 414px;
+    overflow: hidden;
+    position: relative;
+}
+#lunbo{
+    display: flex;
+    float:left;
+    position: relative;
+}
+#right{
+	background-image: url(../images/right.png);
+    position: absolute;
+    width: 31px;
+    height: 42px;
+    margin-left:1070px;
+    z-index:10;
+    top: 40%;
+    cursor: pointer;
+}
+#left{
+    background-image: url(../images/left.png);
+    background-color: #0a3b86;
+    position: absolute;
+    width: 31px;
+    height: 42px;
+    right: auto;
+    z-index:10;
+    top: 40%;
+    cursor: pointer;
+}
+#lunbo a img{
+    width:1100px;
+
+}
+.box_tit{
+    width: 1200px;
+    height: 780px;
+    background-color: #f5f5f5;
+    margin-top: 50px;
+}
+.title{
+    margin: 0;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #363535;
+    border-bottom: 2px solid #3d3d3d;
+}
+.nei_pohot{
+    display: block;
+    padding-left: 90px;
+    margin-top: 30px;
+}
+.phone_tu{
+    display: block;
+    float: left;
+    width: 220px;
+    height: 275px;
+    padding-top: 18px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+.phone_tu .ph{
+    text-align: center;
+    padding-left: 10px;
+}
+.phone_tu .ph img{
+	width: 160px;
+}
+.phone_tu .na{
+    display: block;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    /*padding: 8px 0px;*/
+    height: 50px;
+    line-height: 50px;
+    width: 190px;
+    margin: 8px auto 0;
+    overflow: hidden;
+}
+.phone_tu p{
+    text-align: center;
+    color: #fd8f00;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+.footer{
+    height: 380px;
+    background-color: #e5e8e0;
+    margin-top: 20px;
+    display: block;
+}
+.translate{
+    width: 1300px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.footer-links{
+    float: left;
+    width: 160px;
+    margin-left: 95px;
+}
+.footer-links h5{
+    font-size: 20px;
+    margin-bottom:30px;
+}
+.footer-links li{
+    font-size: 15px;
+    margin-top: 15px;
+}
+.footer-links li a{
+    color: #3d3d3d;
+}
+.footer-links li a:hover{
+    color: #ea822e;
+}
+.nav{
+    position: fixed;
+    top: 300px;
+    right: 50px;
+    width: 100px;
+    background-color: #e87070;
+    text-align: center;
+    display: none;
+}
+.nav li {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 2px solid #bdb9b9;
+    cursor: pointer;
+}
+.current{
+    background-color: #9c82e8;
+    color: #FFFFFF;
+}
+.back{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid #bdb9b9;
+    cursor: pointer;
+}
