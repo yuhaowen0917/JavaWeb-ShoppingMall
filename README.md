@@ -7,7 +7,7 @@ JavaWeb在线商城开发知识总结(java+jsp+servlet+MySQL+jdbc+css+js+jQuery)
 
 **项目视频演示**
 
-[https://www.bilibili.com/video/BV1SR4y1K7sy](https://www.bilibili.com/video/BV1SR4y1K7sy)
+[视频演示链接：https://www.bilibili.com/video/BV1SR4y1K7sy](https://www.bilibili.com/video/BV1SR4y1K7sy)
 
 <br>
 
