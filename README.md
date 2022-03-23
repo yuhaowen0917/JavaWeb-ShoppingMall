@@ -14,7 +14,7 @@ JavaWeb在线商城开发知识总结(java+jsp+servlet+MySQL+jdbc+css+js+jQuery)
 **项目结构图**
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/3624ca34aae949218992472801d5e03c.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAd3VfbGlhbmcwOTE3,size_9,color_FFFFFF,t_70,g_se,x_16#pic_center)
 
-## 数据库设计
+## 数据库设计介绍
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/fd70583f8725462da314cbfe543d9adc.png#pic_center)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/09c9aa4ab30e4e918c93d5bf7c784443.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAd3VfbGlhbmcwOTE3,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/33e9478248894d49ae24a03185df9516.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAd3VfbGlhbmcwOTE3,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
